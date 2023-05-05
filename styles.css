@@ -1,0 +1,49 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #1a1b1d;
+}
+
+h1 {
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8rem;
+  color: #a01818;
+}
+
+p {
+  font-size: 2rem;
+  color: #a01818;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 80%;
+}
+
+button {
+ margin-top: 5%;
+ background-color: #a01818;
+ color: white;
+ padding: 2rem;
+ border: none;
+ border-radius: 30px;
+ font-size: 2rem;
+width: 10%;
+cursor: pointer;
+transition: all;
+}
+
+button:active{
+  transform: scale(1.1);
+}
